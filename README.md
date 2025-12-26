@@ -10,6 +10,8 @@ The package depends on Numpy, Tensorflow-keras, and ROS. ROS only is used for vi
 
 [Download the demo data]([https://drive.google.com/drive/folders/1oPNyeNW8yeBrWHMWRlYCT_e4tfMPzLKO?usp=sharing](https://drive.google.com/drive/folders/1hser570w48A2YVjj46V8xKqU-Ne7v5k4?usp=sharing)) into your ```Documents``` folder in your home directory.
 
+# Demo
+
 ## Cite 
 
 Thank you for citing [our paper](./docs/paper.pdf) if you use any of this code: 
