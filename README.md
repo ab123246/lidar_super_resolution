@@ -7,7 +7,7 @@ This repository contains code for lidar super-resolution with ground vehicles dr
 The package depends on Numpy, Tensorflow-keras, and ROS. ROS only is used for visualization.
 
 # Data Collection
-我們使用實驗室自製的高爾夫球車在校內收集資料作為Dataset設備實體如下圖所示
+Data collection was conducted on campus using a golf cart from our laboratory. The actual equipment used for the dataset is shown in the following figure.
 <p align='center'>
 <img src="docs/golf_car.png" alt="高球車" width="500">
 </p>
@@ -19,6 +19,9 @@ The package depends on Numpy, Tensorflow-keras, and ROS. ROS only is used for vi
 [Download the demo data]([https://drive.google.com/drive/folders/1oPNyeNW8yeBrWHMWRlYCT_e4tfMPzLKO?usp=sharing](https://drive.google.com/drive/folders/1hser570w48A2YVjj46V8xKqU-Ne7v5k4?usp=sharing)) into your ```Documents``` folder in your home directory.
 
 # Demo
+1. Run numpy2cloud1.py.
+
+2. Open the RViz visualization using the visualize.rviz config.
 
 ## Cite 
 
