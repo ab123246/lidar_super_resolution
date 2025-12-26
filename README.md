@@ -6,6 +6,9 @@ This repository contains code for lidar super-resolution with ground vehicles dr
 
 The package depends on Numpy, Tensorflow-keras, and ROS. ROS only is used for visualization.
 
+# Data Collection
+我們使用實驗室自製的高爾夫球車在校內收集資料作為Dataset設備實體如下圖所示
+![高球車](docs/golf_car.png.png)
 # Data Download
 
 [Download the demo data]([https://drive.google.com/drive/folders/1oPNyeNW8yeBrWHMWRlYCT_e4tfMPzLKO?usp=sharing](https://drive.google.com/drive/folders/1hser570w48A2YVjj46V8xKqU-Ne7v5k4?usp=sharing)) into your ```Documents``` folder in your home directory.
