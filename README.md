@@ -26,10 +26,10 @@ Data collection was conducted on campus using a golf cart from our laboratory. T
 
 # Result
 <p align='center'>
-<img src="docs/Result1.jpeg"  width="500">
+<img src="docs/Result1.jpeg"  width="800">
 </p>
 <p align='center'>
-<img src="docs/Result2.jpeg"  width="500">
+<img src="docs/Result2.jpeg"  width="800">
 </p>
 ## Cite 
 
