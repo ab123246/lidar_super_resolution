@@ -22,34 +22,6 @@ ouster_range_image-from-16-to-64_prediction.npy # predicted high-res data using 
 weights.h5 # an example weight file for the Ouster 16 to 64 neural network
 ```
 
-# Train Neural Network
-
-Run ```run.py``` to start training the neural network using the provided data or your data.
-```
-python run.py
-```
-
-# Training Tips
-
-You may want to train a network and then perform inference on your own data after you can run the sample data on your computer. To achieve the best performance, the simulated high-resolution lidar in the simulator should be mounted similarly to the mounting of your low-resolution lidar in the real world. For example, if your real lidar is mounted horizontally at 1.5-meter height. The simulated lidar should be placed like this in the simulator. If your real lidar is mounted horizontally, but your simulated lidar is mounted vertically, you will not get good performance as the view of the two lidars are completely different. Also, the field of view of the real lidar and the simulated lidar should be the same. 
-
-Data augmentation improves the performance of the network greatly. When you collect some data by simulating a high-resolution lidar, you can perform some operations like scaling the range values or flipping the range image.
-
-# Prepare Own Data
-
-There is a script provided in this package, ```rosbag2npy.py```, which converts point cloud messages in a rosbag into range images. The detailed usage of the script can be found in the comments of it.
-
-# Visualization
-
-Run the code following to visualize your predictions:
-```
-roslaunch lidar_super_resolution visualize.launch
-```
-
-<p align='center'>
-    <img src="/docs/demo.gif" alt="drawing" width="800"/>
-</p>
-
 ## Cite 
 
 Thank you for citing [our paper](./docs/paper.pdf) if you use any of this code: 
