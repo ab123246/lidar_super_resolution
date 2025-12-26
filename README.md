@@ -1,6 +1,6 @@
 # Lidar Super-resolution
 
-This repository contains code for lidar super-resolution with ground vehicles driving on roadways, which relies on a driving simulator to enhance the apparent resolution of a physical lidar. To increase the resolution of the point cloud captured by a sparse 3D lidar, we convert this problem from 3D Euclidean space into an image super-resolution problem in 2D image space, which is solved using a deep convolutional neural network. By projecting a point cloud onto a range image, we can efficiently enhance the resolution of such an image using a deep neural network. We train the network purely using computer-generated data (i.e., CARLA simulator). [A video of the package can be found here](https://youtu.be/rNVTpkz2ggY).
+This repository contains code for lidar super-resolution with ground vehicles driving on roadways, which relies on a driving simulator to enhance the apparent resolution of a physical lidar. To increase the resolution of the point cloud captured by a sparse 3D lidar, we convert this problem from 3D Euclidean space into an image super-resolution problem in 2D image space, which is solved using a deep convolutional neural network. By projecting a point cloud onto a range image, we can efficiently enhance the resolution of such an image using a deep neural network. We train the network purely using computer-generated data (i.e., CARLA simulator).
 
 # Dependency
 
@@ -25,6 +25,12 @@ Data collection was conducted on campus using a golf cart from our laboratory. T
 
 
 # Result
+<p align='center'>
+<img src="docs/Result1.jpeg"  width="500">
+</p>
+<p align='center'>
+<img src="docs/Result2.jpeg"  width="500">
+</p>
 ## Cite 
 
 Thank you for citing [our paper](./docs/paper.pdf) if you use any of this code: 
