@@ -31,8 +31,8 @@ Data collection was conducted on campus using a golf cart from our laboratory. T
 <p align='center'>
 <img src="docs/Result2.jpeg"  width="800">
 </p>
-## Cite 
 
+## Cite 
 Thank you for citing [our paper](./docs/paper.pdf) if you use any of this code: 
 ```
 @inproceedings{superresolution2020shan,
