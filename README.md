@@ -23,6 +23,8 @@ Data collection was conducted on campus using a golf cart from our laboratory. T
 
 2. Open the RViz visualization using the visualize.rviz config.
 
+
+# Result
 ## Cite 
 
 Thank you for citing [our paper](./docs/paper.pdf) if you use any of this code: 
