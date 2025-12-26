@@ -12,7 +12,7 @@ The package depends on Numpy, Tensorflow-keras, and ROS. ROS only is used for vi
 <img src="docs/golf_car.png" alt="高球車" width="500">
 </p>
 <p align='center'>
-    <img src="/docs/campus_data_collect.gif" alt="drawing" width="800"/>
+    <img src="/docs/data_collect.gif" alt="drawing" width="800"/>
 </p>
 # Data Download
 
